@@ -1,0 +1,13 @@
+n=int(input("Enter Number:"))
+a=1
+b=3
+c=4
+i=0
+print(a,b,c,end=" ")
+while(i<=n):
+    k=c
+    c=c+b+a
+    print(c,end=" ")
+    a=b
+    b=k
+    i+=1
